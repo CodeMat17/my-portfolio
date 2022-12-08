@@ -1,8 +1,8 @@
-import { Box, Button, HStack } from "@chakra-ui/react";
-import { links } from "../../../navlinks";
-import {Link} from 'react-scroll'
+import {Box, Button, HStack} from '@chakra-ui/react'
+import { Link } from 'react-scroll'
+import {links} from '../../../navlinks'
 
-export const DesktopMenu = () => {
+const DesktopMenuLinks = () => {
   return (
     <Box display={{ base: "none", md: "flex" }} color='white'>
       <HStack spacing='0' mr='4'>
@@ -24,6 +24,7 @@ export const DesktopMenu = () => {
           </Link>
         ))}
       </HStack>
-    </Box>
-  );
-};
+    </Box>  )
+}
+
+export default DesktopMenuLinks

@@ -4,7 +4,7 @@ import Link from "next/link";
 import { FaTwitter } from "react-icons/fa";
 import ColorModeToggle from "../components/ColorModeToggle";
 import MobileMenu from "../components/menuBtn/MobileMenu";
-import { DesktopMenu } from "./menuBtn/DesktopMenu";
+import DesktopMenuLinks from "./menuBtn/DesktopMenuLinks";
 
 const NavHead = () => {
   return (
@@ -45,7 +45,8 @@ const NavHead = () => {
         <HStack spacing='6'>
           <ColorModeToggle />
           <MobileMenu />
-          <DesktopMenu />
+          {/* <DesktopMenu /> */}
+          <DesktopMenuLinks />
         </HStack>
       </HStack>
     </Box>

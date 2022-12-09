@@ -34,8 +34,8 @@ const animDesc = {
     opacity: 1,
     scale: 1,
     transition: {
-      type: "spring",
-      bounce: "0.6",
+      // type: "spring",
+      // bounce: "0.6",
       duration: "4",
       ease: "easeInOut",
     },
@@ -92,7 +92,10 @@ const animIcon1 = {
     x: 0,
     opacity: 1,
     scale: 1,
-    transition: { type: "spring", bounce: "0.4", duration: 5, delay: 2 },
+    transition: {
+      // type: "spring", bounce: "0.4",
+      duration: 5, delay: 2
+    },
   },
 };
 
@@ -111,7 +114,10 @@ const animIcon2 = {
     x: 0,
     opacity: 1,
     scale: 1,
-    transition: { type: "spring", bounce: "0.4", duration: 3, delay: 2.6 },
+    transition: {
+      // type: "spring", bounce: "0.4",
+      duration: 3, delay: 2.6
+    },
   },
 };
 const animIconText2 = {
@@ -129,7 +135,10 @@ const animIcon3 = {
     x: 0,
     opacity: 1,
     scale: 1,
-    transition: { type: "spring", bounce: "0.4", duration: 3, delay: 3.2 },
+    transition: {
+      // type: "spring", bounce: "0.4",
+      duration: 3, delay: 3.2
+    },
   },
 };
 const animIconText3 = {
@@ -147,7 +156,10 @@ const animIcon4 = {
     x: 0,
     opacity: 1,
     scale: 1,
-    transition: { type: "spring", bounce: "0.4", duration: 3, delay: 3.8 },
+    transition: {
+      // type: "spring", bounce: "0.4",
+      duration: 3, delay: 3.8
+    },
   },
 };
 const animIconText4 = {
@@ -165,7 +177,10 @@ const animIcon5 = {
     x: 0,
     opacity: 1,
     scale: 1,
-    transition: { type: "spring", bounce: "0.4", duration: 3, delay: 4.4 },
+    transition: {
+      // type: "spring", bounce: "0.4",
+      duration: 3, delay: 4.4
+    },
   },
 };
 const animIconText5 = {
@@ -183,7 +198,10 @@ const animIcon6 = {
     x: 0,
     opacity: 1,
     scale: 1,
-    transition: { type: "spring", bounce: "0.4", duration: 3, delay: 5 },
+    transition: {
+      // type: "spring", bounce: "0.4",
+      duration: 3, delay: 5
+    },
   },
 };
 const animIconText6 = {

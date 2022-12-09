@@ -40,7 +40,10 @@ const SkillCard2 = ({ svg, title, percent }) => {
       whileInView={{
         x: 0,
         opacity: 1,
-        transition: { type: "spring", bounce: 0.2, duration: 2 },
+        transition: {
+          // type: "spring", bounce: 0.2,
+          duration: 2
+        },
       }}
       viewport={{ once: false, amount: 0.4 }}
       //   initial='hidden'

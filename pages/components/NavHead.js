@@ -15,7 +15,7 @@ const NavHead = () => {
       zIndex='70'
       bg='gray.800'
       pl='4'
-      pr='1'
+      pr='2'
       py='4'>
       <HStack
         maxW='4xl'

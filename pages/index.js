@@ -77,7 +77,7 @@ export default function Home() {
         <HeroPage />
         <About />
         <Experience />
-        {/* <Skills /> */}
+        <Skills />
         <Footer />
       </main>
     </div>

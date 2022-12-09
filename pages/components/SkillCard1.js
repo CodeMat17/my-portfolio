@@ -3,15 +3,15 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { animated, useSpring } from "react-spring";
 
-const animCard = {
-  hidden: { x: 100, opacity: 0 },
-  visible: {
-    x: 0,
-    opacity: 1,
-    // rotate: [0, 10, 0],
-    transition: { type: "spring", bounce: "0.4", duration: 3, delay: 0.6 },
-  },
-};
+// const animCard = {
+//   hidden: { x: 100, opacity: 0 },
+//   visible: {
+//     x: 0,
+//     opacity: 1,
+//     // rotate: [0, 10, 0],
+//     transition: { type: "spring", bounce: "0.4", duration: 3, delay: 0.6 },
+//   },
+// };
 
 const SkillCard1 = ({ svg, title, percent }) => {
   function Number({ n }) {
@@ -36,7 +36,7 @@ const SkillCard1 = ({ svg, title, percent }) => {
   return (
     <Flex
       as={motion.div}
-      initial={{ x: 100, opacity: 0 }}
+      initial={{ x: 50, opacity: 0 }}
       whileInView={{
         x: 0,
         opacity: 1,

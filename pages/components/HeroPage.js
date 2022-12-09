@@ -29,9 +29,8 @@ import { TbBrandNextjs } from "react-icons/tb";
 import Typewriter from "typewriter-effect";
 
 const animDesc = {
-  hidden: { x: -200, opacity: 0, scale: 0 },
+  hidden: {  opacity: 0, scale: 0 },
   visible: {
-    x: 0,
     opacity: 1,
     scale: 1,
     transition: {

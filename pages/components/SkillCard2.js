@@ -36,7 +36,7 @@ const SkillCard2 = ({ svg, title, percent }) => {
   return (
     <Flex
       as={motion.div}
-      initial={{ x: -100, opacity: 0 }}
+      initial={{ x: -50, opacity: 0 }}
       whileInView={{
         x: 0,
         opacity: 1,

@@ -36,12 +36,12 @@ const SkillCard2 = ({ svg, title, percent }) => {
   return (
     <Flex
       as={motion.div}
-      initial={{ x: -100, opacity: 0 }}
+      initial={{ y: -100, opacity: 0 }}
       whileInView={{
-        x: 0,
+        y: 0,
         opacity: 1,
         transition: {
-          // type: "spring", bounce: 0.2,
+          type: "spring", bounce: 0.2,
           duration: 2
         },
       }}

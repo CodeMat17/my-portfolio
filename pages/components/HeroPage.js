@@ -394,7 +394,7 @@ const HeroPage = () => {
             minH={["80px"]}
             as={motion.div}
             variants={animTypewriter}
-            color='black'
+            // color='black'
             fontSize='lg'>
             <Typewriter
               options={{
@@ -420,6 +420,7 @@ const HeroPage = () => {
                 bgGradient='linear(to-r, blue, #008f00)'
                 _hover={{ bgGradient: "linear(to-l, blue, #008f00)" }}>
                 CONTACT ME
+
               </MenuButton>
               <MenuList>
                 <MenuItem

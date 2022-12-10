@@ -30,7 +30,7 @@ const about = [
     item: "I love giving back to the tech ecosystem by mentoring the younger developers. I have mentored and facilitated meetups across Africa (physically and remotely) for Google Africa via Andela Learning Community, ALC, for 3 seasons.",
   },
   {
-    item: "I am also a member of Policy, Strategy and Leadership Course, class 20, of the prestigious institution, National Institute For Policy and Strategic Studies, NIPSS, Kuru, Jos, Nigeria.",
+    item: "I am also a member of Policy, Strategy and Leadership Course, class 20, of the prestigious institute, National Institute For Policy and Strategic Studies, NIPSS, Kuru, Jos, Nigeria.",
   },
 ];
 

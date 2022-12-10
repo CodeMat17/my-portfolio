@@ -269,14 +269,14 @@ const HeroPage = () => {
             px=''
             display='grid'
             gap={["4", 4, 6]}
-            right={[4, 2, -4, -6]}>
-            <Link as={motion.div} href='https://reactjs.org' target='_blank'>
+            right={[4, 2, -16, -6]}>
+            <Link href='https://reactjs.org' target='_blank'>
               <HStack as={motion.div} spacing='-2'>
                 <Box as={motion.div} variants={animIcon1}>
                   <Icon ml={[0, -6]} fontSize={["25px", "30px"]} as={FaReact} />
                 </Box>
                 <Tag
-                  display={{ base: "none", sm: "flex" }}
+                  display={{ base: "none", sm: "flex"}}
                   as={motion.div}
                   variants={animIconText1}
                   variant=''>
@@ -284,7 +284,7 @@ const HeroPage = () => {
                 </Tag>
               </HStack>
             </Link>
-            <Link as={motion.div} href='https://nextjs.org' target='_blank'>
+            <Link href='https://nextjs.org' target='_blank'>
               <HStack as={motion.div} spacing='-2'>
                 <Box as={motion.div} variants={animIcon2}>
                   <Icon
@@ -302,7 +302,7 @@ const HeroPage = () => {
                 </Tag>
               </HStack>
             </Link>
-            <Link as={motion.div} href='https://supabase.com' target='_blank'>
+            <Link href='https://supabase.com' target='_blank'>
               <HStack as={motion.div} spacing='-2'>
                 <Box as={motion.div} variants={animIcon3}>
                   <Icon
@@ -320,7 +320,7 @@ const HeroPage = () => {
                 </Tag>
               </HStack>
             </Link>
-            <Link as={motion.div} href='https://chakra-ui.com' target='_blank'>
+            <Link href='https://chakra-ui.com' target='_blank'>
               <HStack as={motion.div} spacing='-2'>
                 <Box as={motion.div} variants={animIcon4}>
                   <Icon
@@ -338,10 +338,7 @@ const HeroPage = () => {
                 </Tag>
               </HStack>
             </Link>
-            <Link
-              as={motion.div}
-              href='https://www.contentful.com'
-              target='_blank'>
+            <Link href='https://www.contentful.com' target='_blank'>
               <HStack as={motion.div} spacing='-2'>
                 <Box as={motion.div} variants={animIcon5}>
                   <Icon
@@ -359,7 +356,7 @@ const HeroPage = () => {
                 </Tag>
               </HStack>
             </Link>
-            <Link as={motion.div} href='https://directus.io' target='_blank'>
+            <Link href='https://directus.io' target='_blank'>
               <HStack as={motion.div} spacing='-2'>
                 <Box as={motion.div} variants={animIcon6}>
                   <Icon
@@ -477,8 +474,6 @@ const HeroPage = () => {
         </Text>
       </Box>
     </Box>
-
-   
   );
 };
 

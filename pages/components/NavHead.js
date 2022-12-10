@@ -18,7 +18,7 @@ const NavHead = () => {
       pr='2'
       py='4'>
       <HStack
-        maxW='4xl'
+        maxW='6xl'
         mx='auto'
         color='white'
         align='center'

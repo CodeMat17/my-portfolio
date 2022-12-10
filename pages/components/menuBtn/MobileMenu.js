@@ -25,7 +25,7 @@ const MobileMenu = () => {
       <IconButton
         variant='ghost'
         onClick={onOpen}
-        color='#00afee'
+        color='#008f00'
         icon={<HiMenuAlt3 size={32} />}
         isRound
         size='lg'

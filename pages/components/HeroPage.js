@@ -240,7 +240,14 @@ const HeroPage = () => {
             maxW='245px'
             h='350px'
             mx='auto'>
-            <Box as={motion.div} variants={animImg} pos='relative' my='12' roundedBottom='full' borderBottom='8px' borderColor='green'>
+            <Box
+              as={motion.div}
+              variants={animImg}
+              pos='relative'
+              my='12'
+              roundedBottom='full'
+              borderBottom='8px'
+              borderColor='green'>
               <Image
                 alt='profile'
                 layout='fill'
@@ -266,12 +273,7 @@ const HeroPage = () => {
             <Link as={motion.div} href='https://reactjs.org' target='_blank'>
               <HStack as={motion.div} spacing='-2'>
                 <Box as={motion.div} variants={animIcon1}>
-                  <Icon
-                    ml={[0, -6]}
-                    fontSize={["25px", '30px'
-                    ]}
-                    as={FaReact}
-                  />
+                  <Icon ml={[0, -6]} fontSize={["25px", "30px"]} as={FaReact} />
                 </Box>
                 <Tag
                   display={{ base: "none", sm: "flex" }}
@@ -420,7 +422,6 @@ const HeroPage = () => {
                 bgGradient='linear(to-r, blue, #008f00)'
                 _hover={{ bgGradient: "linear(to-l, blue, #008f00)" }}>
                 CONTACT ME
-
               </MenuButton>
               <MenuList>
                 <MenuItem
@@ -477,166 +478,7 @@ const HeroPage = () => {
       </Box>
     </Box>
 
-    //     <Box
-    //       as={motion.div}
-    //       initial='hidden'
-    //       whileInView='visible'
-    //       // viewport={{ once: false, amount: 0.5 }}
-    //       transition={{ staggerChildren: 0.6 }}
-    //       pos='absolute'
-    //       top='20'
-    //       px='6'
-    //       display='grid'
-    //       gap={["4", 4, 6]}
-    //       right={[0, 0, 12, 16]}
-    //       zIndex='60'>
-    //       <Link as={motion.div} href='https://reactjs.org' target='_blank'>
-    //         <HStack as={motion.div} spacing='-2'>
-    //           <Box as={motion.div} variants={animIcon1}>
-    //             <Icon
-    //               ml={[0, -6]}
-    //               fontSize={["25px", "30px", "35px", "45px"]}
-    //               as={FaReact}
-    //             />
-    //           </Box>
-    //           <Tag
-    //             display={{ base: "none", sm: "flex" }}
-    //             as={motion.div}
-    //             variants={animIconText1}
-    //             variant=''>
-    //             React.js
-    //           </Tag>
-    //         </HStack>
-    //       </Link>
-    //       <Link as={motion.div} href='https://nextjs.org' target='_blank'>
-    //         <HStack as={motion.div} spacing='-2'>
-    //           <Box as={motion.div} variants={animIcon2}>
-    //             <Icon
-    //               ml={[0, 2]}
-    //               fontSize={["25px", "30px", "35px", "45px"]}
-    //               as={TbBrandNextjs}
-    //             />
-    //           </Box>
-    //           <Tag
-    //             display={{ base: "none", sm: "flex" }}
-    //             as={motion.div}
-    //             variants={animIconText2}
-    //             variant=''>
-    //             Next.js
-    //           </Tag>
-    //         </HStack>
-    //       </Link>
-    //       <Link as={motion.div} href='https://supabase.com' target='_blank'>
-    //         <HStack as={motion.div} spacing='-2'>
-    //           <Box as={motion.div} variants={animIcon3}>
-    //             <Icon
-    //               ml={[0, 6]}
-    //               fontSize={["25px", "30px", "35px", "45px"]}
-    //               as={SiSupabase}
-    //             />
-    //           </Box>
-    //           <Tag
-    //             display={{ base: "none", sm: "flex" }}
-    //             as={motion.div}
-    //             variants={animIconText3}
-    //             variant=''>
-    //             Supabase
-    //           </Tag>
-    //         </HStack>
-    //       </Link>
-    //       <Link as={motion.div} href='https://chakra-ui.com' target='_blank'>
-    //         <HStack as={motion.div} spacing='-2'>
-    //           <Box as={motion.div} variants={animIcon4}>
-    //             <Icon
-    //               ml={[0, 6]}
-    //               fontSize={["25px", "30px", "35px", "45px"]}
-    //               as={SiChakraui}
-    //             />
-    //           </Box>
-    //           <Tag
-    //             display={{ base: "none", sm: "flex" }}
-    //             as={motion.div}
-    //             variants={animIconText4}
-    //             variant=''>
-    //             Chakra-UI
-    //           </Tag>
-    //         </HStack>
-    //       </Link>
-    //       <Link
-    //         as={motion.div}
-    //         href='https://www.contentful.com'
-    //         target='_blank'>
-    //         <HStack as={motion.div} spacing='-2'>
-    //           <Box as={motion.div} variants={animIcon5}>
-    //             <Icon
-    //               ml={[0, 2]}
-    //               fontSize={["25px", "30px", "35px", "45px"]}
-    //               as={SiContentful}
-    //             />
-    //           </Box>
-    //           <Tag
-    //             display={{ base: "none", sm: "flex" }}
-    //             as={motion.div}
-    //             variants={animIconText5}
-    //             variant=''>
-    //             Contentful
-    //           </Tag>
-    //         </HStack>
-    //       </Link>
-    //       <Link as={motion.div} href='https://directus.io' target='_blank'>
-    //         <HStack as={motion.div} spacing='-2'>
-    //           <Box as={motion.div} variants={animIcon6}>
-    //             <Icon
-    //               ml={[0, -6]}
-    //               fontSize={["25px", "30px", "35px", "45px"]}
-    //               as={SiDirectus}
-    //             />
-    //           </Box>
-    //           <Tag
-    //             display={{ base: "none", sm: "flex" }}
-    //             as={motion.div}
-    //             variants={animIconText6}
-    //             variant=''>
-    //             Directus
-    //           </Tag>
-    //         </HStack>
-    //       </Link>
-    //     </Box>
-    //   </Flex>
-    //   <Box
-    //     as={motion.div}
-    //     initial='hidden'
-    //     whileInView='visible'
-    //     pb='8'
-    //     pos='absolute'
-    //     left='0'
-    //     right='0'
-    //     top={[, 650]}
-    //     textAlign='center'
-    //     zIndex='40'
-    //     px='6'
-    //     maxW='xl'
-    //     mx='auto'>
-    //     <Text
-    //       mt='4'
-    //       as={motion.div}
-    //       variants={animDesc}
-    //       fontWeight='bold'
-    //       fontSize='2xl'>
-    //       <Highlight
-    //         query={["secured", "SEO", "smoothly", "confidently"]}
-    //         styles={{
-    //           px: "2",
-    //           py: "1",
-    //           rounded: "full",
-    //           bg: "teal.100",
-    //         }}>
-    //         A secured and SEO enabled Mobile-Web apps makes a business run
-    //         smoothly and confidently.
-    //       </Highlight>
-    //     </Text>
-    //   </Box>
-    // </Box>
+   
   );
 };
 

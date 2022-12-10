@@ -47,21 +47,22 @@ const Experience = () => {
   }, []);
 
   return (
-    <Box id='experience'
+    <Box
+      id='experience'
       as={motion.div}
       initial='hidden'
       whileInView='visible'
       viewport={{ once: false, amount: 0.2 }}
       transition={{ staggerChildren: 0.6 }}
       py='20'
-      px='6'
-      maxW='3xl'
+      // px='6'
+      maxW='4xl'
       mx='auto'>
       <Box as={motion.div}>
         <Text
           as={motion.div}
           variants={animTitle}
-          fontSize='3xl'
+          fontSize='3xl' px='6'
           textAlign='center'
           fontWeight='bold'
           letterSpacing='wider'>
@@ -80,7 +81,7 @@ const Experience = () => {
         as={motion.div}
         ref={carousel}
         whileTap={{ cursor: "grabbing" }}
-        mt='12'
+        mt='12' ml='6'
         cursor='grab'
         overflow='hidden'>
         <Box
@@ -89,11 +90,7 @@ const Experience = () => {
           dragConstraints={{ right: 0, left: -width }}
           display='flex'>
           {cards.map((card) => (
-            <ExperienceCard
-              key={card.id}
-              title={card.title}
-              svg={card.svg}
-            />
+            <ExperienceCard key={card.id} title={card.title} svg={card.svg} />
           ))}
           <Flex align='center' justify='center' px='12'>
             ETC

@@ -240,7 +240,7 @@ const HeroPage = () => {
             maxW='245px'
             h='350px'
             mx='auto'>
-            <Box as={motion.div} variants={animImg} pos='relative' my='12'>
+            <Box as={motion.div} variants={animImg} pos='relative' my='12' roundedBottom='full'>
               <Image
                 alt='profile'
                 layout='fill'

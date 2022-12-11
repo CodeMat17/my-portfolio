@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import About from './components/About'
+import ContactMe from './components/ContactMe';
 import Experience from "./components/Experience";
 import Footer from './components/Footer';
 import HeroPage from './components/HeroPage'
@@ -78,6 +79,7 @@ export default function Home() {
         <About />
         <Experience />
         <Skills />
+        <ContactMe />
         <Footer />
       </main>
     </div>
